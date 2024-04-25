@@ -2,3 +2,43 @@ h1 {
     text-align: center;
     color: hotpink;
 }
+h2 {
+    color: hotpink;
+}
+p {
+    color: hotpink;
+}
+a {
+    color: hotpink;
+}
+a:hover {
+    color: pink;
+    text-decoration: none;
+}
+nav {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+nav a {
+    color: hotpink;
+    font-size: 1.5em;
+}
+nav a:hover {
+    color: pink;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(186, 250, 167);
+    text-align: center;
+}
+main {
+    margin-right: 20px;
+}
