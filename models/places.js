@@ -14,9 +14,6 @@ const placeSchema = new mongoose.Schema({
     comments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Comment' }]
 })
 
-
-
-
 placeSchema.methods.showEstablished = function () {
     return `${this.name} has been serving ${this.city}, ${this.state} since ${this.founded}.`
 }

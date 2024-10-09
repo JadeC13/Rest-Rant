@@ -2,6 +2,9 @@
 
 REST-Rant is an app where users can review restaurants.
 
+when you run npm start it doesn't open the application. I can't figure out why. 
+Once you run npm start you can manually visit localhost:3000 and the application will show up.
+
 ## Routes
 
 | Method | Path                     | Purpose                                                       |
